@@ -1,0 +1,13 @@
+.cards{
+display:flex;
+flex-direction: row;
+justify-content:  start;
+}
+
+farm-asset-card{
+
+    // width: 220px;
+    // height: 500px;
+    flex: auto auto;
+margin: 10px;
+}
