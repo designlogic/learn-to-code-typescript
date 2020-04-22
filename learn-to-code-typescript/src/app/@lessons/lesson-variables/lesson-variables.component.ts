@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CodeFarmModule } from 'src/app/@core/codeFarmCore';
-import { CodeFarm } from 'src/app/codeFarm';
+import { CodeFarmModule } from '../../../app/@core/codeFarmCore';
+import { CodeFarm } from '../../../app/codeFarm';
 
 @Component({
   selector: 'lesson-variables',

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { CodeFarmModule } from 'src/app/@core/codeFarmCore';
+import { CodeFarmModule } from '../../../app/@core/codeFarmCore';
 
 @Component({
   selector: 'farm-asset-card',
