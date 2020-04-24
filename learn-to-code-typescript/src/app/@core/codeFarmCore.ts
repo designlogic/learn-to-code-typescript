@@ -12,6 +12,16 @@ export module CodeFarmModule {
       PigCard = 'https://designlogicstorage.blob.core.windows.net/learn-to-code/pigCard.png',
     
     
+      
+      TileBarn = 'https://designlogicstorage.blob.core.windows.net/learn-to-code/tile-barn.png',
+      TileCutHay = 'https://designlogicstorage.blob.core.windows.net/learn-to-code/tile-cut-hay.png',
+      TileFertilize = 'https://designlogicstorage.blob.core.windows.net/learn-to-code/tile-fertilize.png',
+      TileGreenHouse = 'https://designlogicstorage.blob.core.windows.net/learn-to-code/tile-green-house.png',
+      TileHayDry = 'https://designlogicstorage.blob.core.windows.net/learn-to-code/tile-hay-dry.png',
+      TileOrchard = 'https://designlogicstorage.blob.core.windows.net/learn-to-code/tile-orchard.png',
+    
+      Ribbon = 'https://designlogicstorage.blob.core.windows.net/learn-to-code/ribbon.png',
+      Trophy = 'https://designlogicstorage.blob.core.windows.net/learn-to-code/trophy.png',
     
     }
   

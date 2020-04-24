@@ -1,7 +1,15 @@
 .content{
     text-align: center;
+    width: 200px;
+}
+
+.content img{
+   width:180px;
 }
 
 mat-card-content{
-    height:350px;
+}
+
+mat-card{
+   max-width: 200px;
 }
