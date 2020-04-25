@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { CodeFarmModule } from '../../../app/@core/codeFarmCore';
 import { CodeFarm } from '../../../app/codeFarm';
 import { MatDialogRef, MatDialog } from '@angular/material/dialog';
-import { TaskCompleteDialogComponent } from 'src/app/@shared/task-complete-dialog/task-complete-dialog.component';
 
 @Component({
   selector: 'lesson-variables',

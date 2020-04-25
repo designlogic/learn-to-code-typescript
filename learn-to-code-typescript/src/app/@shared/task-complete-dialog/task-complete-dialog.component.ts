@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CodeFarm } from 'src/app/codeFarm';
-import { CodeFarmModule } from 'src/app/@core/codeFarmCore';
+import { CodeFarmModule } from '../../../app/@core/codeFarmCore';
 
 @Component({
   selector: 'app-task-complete-dialog',
