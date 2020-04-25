@@ -19,7 +19,6 @@ export class LessonVariablesComponent implements OnInit {
     subTitle:"0"
   }
 
-
   pig : CodeFarmModule.FarmAssetModel = {
     title:"Pigs",
     name:"pigCount",
@@ -42,28 +41,23 @@ export class LessonVariablesComponent implements OnInit {
 
     var student : any = new CodeFarm();
 
-this.chicken.subTitle = student.chickenCount?.toString();
-this.pig.subTitle = student.pigCount?.toString();
-this.sheep.subTitle = student.sheepCount?.toString();
 
-if(student.chickenCount == 10 && student.pigCount == 30){
-  this.showTaskComplete();
+    this.chicken.subTitle = student.chickenCount ? student.chickenCount.toString() : "0";
+    this.pig.subTitle = student.pigCount ? student.pigCount.toString() : "0";
+    this.sheep.subTitle = student.sheepCount ? student.sheepCount.toString() : "0";
+    
+    
+    
+    
+    if(student.chickenCount == 10 && student.pigCount == 300)
+    {
 
-}
+      CodeFarmModule.showTaskCompleteDialog(this.dialog);
 
-  }
-
-  showTaskComplete(){
-
-    // let dialogRef = dialog.open(UserProfileComponent, {
-    //   height: '400px',
-    //   width: '600px',
-    // });
-    let dialogRef = this.dialog.open(TaskCompleteDialogComponent, {
-      height: '550px',
-      width: '450px',
-    });
+    }
+    
 
   }
+
 
 }

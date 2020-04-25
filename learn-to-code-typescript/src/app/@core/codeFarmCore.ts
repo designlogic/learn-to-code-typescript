@@ -1,3 +1,6 @@
+import { MatDialog } from '@angular/material/dialog';
+import { TaskCompleteDialogComponent } from '../@shared/task-complete-dialog/task-complete-dialog.component';
+
 export module CodeFarmModule {
     export enum ImagePaths {
       Chicken = 'https://designlogicstorage.blob.core.windows.net/learn-to-code/chicken.png',
@@ -31,5 +34,14 @@ export module CodeFarmModule {
       imageSource: CodeFarmModule.ImagePaths;
       subTitle: string = '';
     }
+
+
+    export function showTaskCompleteDialog(dialog: MatDialog){
+      let dialogRef = dialog.open(TaskCompleteDialogComponent, {
+        height: '550px',
+        width: '450px',
+      });
+    }
+
   }
   
